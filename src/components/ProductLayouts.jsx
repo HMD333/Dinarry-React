@@ -2,50 +2,50 @@ import React from "react";
 
 //// Drinks
 // cold
-import Mango_Juice from "/public/assets/Drinks/Cold/Mango_Juice.jpg";
-import Milk_Coffee from "/public/assets/Drinks/Cold/Milk_Coffee.jpg";
-import Milkshake from "/public/assets/Drinks/Cold/Milkshake.jpg";
-import Mocha from "/public/assets/Drinks/Cold/Mocha.jpg";
-import Mojito from "/public/assets/Drinks/Cold/Mojito.jpg";
+import Mango_Juice from "../assets/Drinks/Cold/Mango_Juice.jpg";
+import Milk_Coffee from "../assets/Drinks/Cold/Milk_Coffee.jpg";
+import Milkshake from "../assets/Drinks/Cold/Milkshake.jpg";
+import Mocha from "../assets/Drinks/Cold/Mocha.jpg";
+import Mojito from "../assets/Drinks/Cold/Mojito.jpg";
 
 // hot
-import Cappuccino from "/public/assets/Drinks/Hot/Cappuccino.jpg";
-import Coffee from "/public/assets/Drinks/Hot/Coffee.jpg";
-import Espresso from "/public/assets/Drinks/Hot/Espresso.jpg";
-import Herbal_Tea from "/public/assets/Drinks/Hot/Herbal_Tea.jpg";
-import Hot_Chocolate from "/public/assets/Drinks/Hot/Hot_Chocolate.jpg";
-import Tea from "/public/assets/Drinks/Hot/Tea.jpg";
+import Cappuccino from "../assets/Drinks/Hot/Cappuccino.jpg";
+import Coffee from "../assets/Drinks/Hot/Coffee.jpg";
+import Espresso from "../assets/Drinks/Hot/Espresso.jpg";
+import Herbal_Tea from "../assets/Drinks/Hot/Herbal_Tea.jpg";
+import Hot_Chocolate from "../assets/Drinks/Hot/Hot_Chocolate.jpg";
+import Tea from "../assets/Drinks/Hot/Tea.jpg";
 
 //// Meals
 // Breakfast
-import English_Stayle from "/public/assets/Meals/Breakfast/English_Stayle.jpg";
-import Filled_Croissants from "/public/assets/Meals/Breakfast/Filled_Croissants.jpg";
-import Nicoise_Salad from "/public/assets/Meals/Breakfast/Nicoise_Salad.jpg";
-import Pancake from "/public/assets/Meals/Breakfast/Pancake.jpg";
-import Strawberry_Proteic_Crepes from "/public/assets/Meals/Breakfast/Strawberry_Proteic_Crepes.jpg";
-import Superfood_Peanut_Butter_Oatmeal_Bowl from "/public/assets/Meals/Breakfast/Superfood_Peanut_Butter_Oatmeal_Bowl.jpg";
+import English_Stayle from "../assets/Meals/Breakfast/English_Stayle.jpg";
+import Filled_Croissants from "../assets/Meals/Breakfast/Filled_Croissants.jpg";
+import Nicoise_Salad from "../assets/Meals/Breakfast/Nicoise_Salad.jpg";
+import Pancake from "../assets/Meals/Breakfast/Pancake.jpg";
+import Strawberry_Proteic_Crepes from "../assets/Meals/Breakfast/Strawberry_Proteic_Crepes.jpg";
+import Superfood_Peanut_Butter_Oatmeal_Bowl from "../assets/Meals/Breakfast/Superfood_Peanut_Butter_Oatmeal_Bowl.jpg";
 
 // Lunch
-import Burger from "/public/assets/Meals/Lunch/Burger.jpg";
-import L_Nicoise_Salad from "/public/assets/Meals/Lunch/Nicoise_Salad.jpg";
-import Burrito from "/public/assets/Meals/Lunch/Burrito.jpg";
-import Grilled_Garllic_and_Herb_Chicken_and_Veggies from "/public/assets/Meals/Lunch/Grilled_Garllic_&_Herb_Chicken_&_Veggies.jpg";
-import Ramen from "/public/assets/Meals/Lunch/Ramen.jpg";
+import Burger from "../assets/Meals/Lunch/Burger.jpg";
+import L_Nicoise_Salad from "../assets/Meals/Lunch/Nicoise_Salad.jpg";
+import Burrito from "../assets/Meals/Lunch/Burrito.jpg";
+import Grilled_Garllic_and_Herb_Chicken_and_Veggies from "../assets/Meals/Lunch/Grilled_Garllic_&_Herb_Chicken_&_Veggies.jpg";
+import Ramen from "../assets/Meals/Lunch/Ramen.jpg";
 
 // Dinner
-import D_Burrito from "/public/assets/Meals/Dinner/Burrito.jpg";
-import D_Burger from "/public/assets/Meals/Dinner/Burger.jpg";
-import Pasta from "/public/assets/Meals/Dinner/Pasta.jpg";
-import D_Nicoise_Salad from "/public/assets/Meals/Dinner/Nicoise_Salad.jpg";
-import D_Grilled_Garllic_and_Herb_Chicken_and_Veggies from "/public/assets/Meals/Dinner/Grilled_Garllic_&_Herb_Chicken_&_Veggies.jpg";
+import D_Burrito from "../assets/Meals/Dinner/Burrito.jpg";
+import D_Burger from "../assets/Meals/Dinner/Burger.jpg";
+import Pasta from "../assets/Meals/Dinner/Pasta.jpg";
+import D_Nicoise_Salad from "../assets/Meals/Dinner/Nicoise_Salad.jpg";
+import D_Grilled_Garllic_and_Herb_Chicken_and_Veggies from "../assets/Meals/Dinner/Grilled_Garllic_&_Herb_Chicken_&_Veggies.jpg";
 
 //// Desserts
-import Cannoli from "/public/assets/Desserts/Cannoli.jpg";
-import Cheese_Cake from "/public/assets/Desserts/Cheese-Cake.jpg";
-import Cookies from "/public/assets/Desserts/Cookies.jpg";
-import Cupcakes from "/public/assets/Desserts/Cupcakes.jpg";
-import Macarons from "/public/assets/Desserts/Macarons.jpg";
-import Mini_Cheese from "/public/assets/Desserts/Mini_Cheese.jpg";
+import Cannoli from "../assets/Desserts/Cannoli.jpg";
+import Cheese_Cake from "../assets/Desserts/Cheese-Cake.jpg";
+import Cookies from "../assets/Desserts/Cookies.jpg";
+import Cupcakes from "../assets/Desserts/Cupcakes.jpg";
+import Macarons from "../assets/Desserts/Macarons.jpg";
+import Mini_Cheese from "../assets/Desserts/Mini_Cheese.jpg";
 
 const products = [
   [

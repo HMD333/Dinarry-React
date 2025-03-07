@@ -1,9 +1,9 @@
 import { Outlet, Link } from "react-router-dom";
 import React, { useState } from "react";
 import Logo from "/logo.png";
-import FB from "/public/assets/social_media/fb.png";
-import Instagram from "/public/assets/social_media/instagram.png";
-import Whatsapp from "/public/assets/social_media/whatsapp.png";
+import FB from "../../assets/social_media/fb.png";
+import Instagram from "../../assets/social_media/instagram.png";
+import Whatsapp from "../../assets/social_media/whatsapp.png";
 import Socialmedia from "../../components/socialmedia";
 
 const socialmedia = [

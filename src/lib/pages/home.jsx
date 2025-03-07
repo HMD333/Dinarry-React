@@ -1,13 +1,15 @@
+import img1 from "../../assets/Home/Valle___a_Guadalupe_Valley_Kitchen.jpg";
+import img2 from "../../assets/Home/large-restaurant.jpg";
 import Cared from "../../components/ContentCared";
 
 const Cards = [
   [
     "public section have a nice view, drinks bar, powerfully network and comfortable place.",
-    "src/assets/Home/Valle___a_Guadalupe_Valley_Kitchen.jpg",
+    img1,
   ],
   [
     "occasion section have a magnificent view, background music band and open buffet.",
-    "src/assets/Home/large-restaurant.jpg",
+    img2,
   ],
 ];
 

@@ -9,7 +9,7 @@ import Socialmedia from "../../components/socialmedia";
 const socialmedia = [
   ["/", FB],
   ["/", Instagram],
-  ["/", Whatsapp],
+  ["https://wa.me/+967772575568", Whatsapp],
 ];
 
 const navItems = ["Home", "Meals", "Drinks", "Desserts"]; // Define navItems here

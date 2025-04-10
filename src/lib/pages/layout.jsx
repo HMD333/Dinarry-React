@@ -1,14 +1,16 @@
 import { Outlet, Link } from "react-router-dom";
 import React, { useState } from "react";
 import Logo from "/logo.png";
-import FB from "../../assets/social_media/fb.png";
+import Discord from "../../assets/social_media/discord.png";
+import X from "../../assets/social_media/x.png";
 import Instagram from "../../assets/social_media/instagram.png";
 import Whatsapp from "../../assets/social_media/whatsapp.png";
 import Socialmedia from "../../components/socialmedia";
 
 const socialmedia = [
-  ["/", FB],
-  ["/", Instagram],
+  ["https://discord.com/users/hmd333", Discord],
+  ["https://x.com/HMD8134", X],
+  ["https://www.instagram.com/hatem.aldouh/", Instagram],
   ["https://wa.me/+967772575568", Whatsapp],
 ];
 

@@ -11,7 +11,7 @@ function Meals() {
           <li className="inline-block mx-2">
             <button
               onClick={() => setActiveTab("Breakfast")}
-              className={`bg-[#8b655c] text-white no-underline py-2 px-8 flex justify-center items-center rounded-lg transition-colors duration-200 ease-in-out ${
+              className={`max-md:px-3 bg-[#8b655c] text-white no-underline py-2 px-8 flex justify-center items-center rounded-lg transition-colors duration-200 ease-in-out ${
                 activeTab === "Breakfast" ? "bg-[#b78276]" : ""
               }`}
             >
@@ -21,7 +21,7 @@ function Meals() {
           <li className="inline-block mx-2">
             <button
               onClick={() => setActiveTab("Lunch")}
-              className={`bg-[#8b655c] text-white no-underline py-2 px-8 flex justify-center items-center rounded-lg transition-colors duration-200 ease-in-out ${
+              className={`max-md:px-3 bg-[#8b655c] text-white no-underline py-2 px-8 flex justify-center items-center rounded-lg transition-colors duration-200 ease-in-out ${
                 activeTab === "Lunch" ? "bg-[#b78276]" : ""
               }`}
             >
@@ -31,7 +31,7 @@ function Meals() {
           <li className="inline-block mx-2">
             <button
               onClick={() => setActiveTab("Dinner")}
-              className={`bg-[#8b655c] text-white no-underline py-2 px-8 flex justify-center items-center rounded-lg transition-colors duration-200 ease-in-out ${
+              className={`max-md:px-3 bg-[#8b655c] text-white no-underline py-2 px-8 flex justify-center items-center rounded-lg transition-colors duration-200 ease-in-out ${
                 activeTab === "Dinner" ? "bg-[#b78276]" : ""
               }`}
             >

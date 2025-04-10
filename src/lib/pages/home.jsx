@@ -16,7 +16,7 @@ const Cards = [
 function Home() {
   return (
     <>
-      <div className="flex justify-between flex-wrap m-8">
+      <div className="flex justify-between flex-wrap m-8 max-md:m-2">
         {Cards.map((item, index) => (
           <Cared key={index} context={item[0]} url={item[1]} />
         ))}

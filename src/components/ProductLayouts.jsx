@@ -127,13 +127,13 @@ const products = [
 
 function Product({ img, info, price }) {
   return (
-    <div className="relative mx-auto my-2 h-[460px]">
+    <div className="relative m-5 h-[380px] w-[280px]">
       <img
         src={img}
         alt={info}
-        className="h-[380px] w-[280px] rounded-[5.6px] transition-transform duration-500 ease-in-out transform hover:blur-sm hover:translate-y-1 hover:shadow-lg"
+        className="h-[380px] w-[280px] rounded-[5.6px]"
       />
-      <div className="absolute inset-0 opacity-0 transform -translate-y-10 overflow-hidden transition-opacity duration-500 ease-in-out hover:opacity-100 hover:translate-y-0 bg-[#f4ccc4ca] rounded-b-[5.6px]">
+      <div className="top-[300px] absolute inset-0 opacity-80 overflow-hidden bg-[#f4ccc4ca] rounded-b-[5.6px]">
         <p className="font-semibold text-center">{info}</p>
         <div className="font-semibold text-green-700 text-center">{price}$</div>
       </div>
@@ -143,11 +143,14 @@ function Product({ img, info, price }) {
 
 function ProductLayout({ type }) {
   return (
-    <div className="flex flex-wrap my-16 mx-[7%]">
+    <div className="flex">
       {products.map((category, index) => {
         if (type === category[0]) {
           return (
-            <div key={index}>
+            <div
+              key={index}
+              className="flex flex-wrap justify-center max-md:m-5 m-16"
+            >
               {category[1].map((item, itemIndex) => (
                 <Product
                   key={itemIndex}

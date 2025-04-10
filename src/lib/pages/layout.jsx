@@ -16,29 +16,37 @@ const navItems = ["Home", "Meals", "Drinks", "Desserts"]; // Define navItems her
 
 function Layout() {
   const [activeTab, setActiveTab] = useState("Home");
+  const [isOpen, setIsOpen] = useState(false); // State for mobile menu toggle
+
   return (
     <>
       <header
         id="header"
         className="border-b-2 border-[#8b655c] bg-[#f0b8ad] h-[144px] w-full z-50"
       >
-        <nav className="flex justify-between items-center py-6">
+        <nav className="flex justify-between items-center max-md:py-3 md:py-3 lg:py-6">
           <img src={Logo} alt="Logo" className="w-[175px]" />
-          <ul className="flex">
+          <ul
+            className={`z-40 flex ${
+              isOpen ? "flex-col" : "hidden"
+            } md:flex md:flex-row md:relative md:top-0 max-md:absolute max-md:top-35 max-md:right-0 max-md:left-0 bg-[#f0b8ad] rounded-b-lg`}
+          >
             {navItems.map((item, index) => {
-              // Define the URL based on the item
               const url = item === "Home" ? "" : item;
 
               return (
                 <li key={index} className="inline-inline-block mx-[10.4px]">
                   <Link
-                    className={`text-white no-underline py-2 px-8 flex justify-center items-center rounded-lg transition-colors duration-200 ease-in-out ${
+                    className={`text-white no-underline py-2 px-8 my-2 flex justify-center items-center rounded-lg transition-colors duration-200 ease-in-out ${
                       activeTab === item
                         ? "bg-[#b78276]"
                         : "bg-[#8b655c] hover:bg-[#b78276] focus:bg-[#b78276]"
                     }`}
                     to={`/${url}`}
-                    onClick={() => setActiveTab(item)}
+                    onClick={() => {
+                      setActiveTab(item);
+                      setIsOpen(false); // Close menu on item click
+                    }}
                   >
                     {item}
                   </Link>
@@ -46,10 +54,13 @@ function Layout() {
               );
             })}
           </ul>
-          <div className="hidden" id="dd">
-            <div className="item_1"></div>
-            <div className="item_2"></div>
-            <div className="item_3"></div>
+          <div className="relative md:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="px-5 text-white text-5xl focus:outline-none "
+            >
+              ☰
+            </button>
           </div>
         </nav>
       </header>
